@@ -10,6 +10,10 @@
   font-style: bold;
   color: blue;
 }
+#scoreBoard tr:nth-child(even) {
+  background-color: #4CAF50;
+
+}
 #teamRoster {
   list-style-type: square;
 }
@@ -33,10 +37,9 @@ blockquote {
   /* background-image: url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg"); */
   background-repeat: no-repeat;
   background-size:  contain;
-  /* background-origin: padding-box; */
 
 }
-#teamRoster >li:last-child {
+#teamRoster > li:last-child {
   background:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
 
   /* background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg"); */
