@@ -1,0 +1,29 @@
+.subjectHeader {
+  color: green;
+  font-family: sans-serif;
+}
+#scoreBoard, th, td {
+  border: 1px solid black;
+  text-align: center;
+}
+#scoreBoard thead th {
+  font-style: bold;
+  color: blue;
+}
+#teamRoster {
+  list-style-type: square;
+}
+a:hover {
+  color: green;
+  text-decoration: none;
+}
+a:active {
+  color: red;
+}
+blockquote {
+  background-color: black;
+  color: lime;
+}
+#checkbox-grid {
+  list-style-type: none;
+}
