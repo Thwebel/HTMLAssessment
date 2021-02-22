@@ -44,3 +44,6 @@ blockquote {
 #teamRoster img, img + br {
   display: none;
 }
+#teamRoster ol li:first-child {
+  font-weight: bold;
+}
